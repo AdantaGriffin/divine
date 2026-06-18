@@ -1,4 +1,4 @@
-import styles from './App.module.scss';
+
 
 import Header from './components/header/header';
 import Landing from './components/landing/landing';
