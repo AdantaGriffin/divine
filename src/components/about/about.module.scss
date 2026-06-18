@@ -1,0 +1,40 @@
+.about{
+    height: 80vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+    .aboutUs{
+        background: black;
+        color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .images{
+            border: 1px solid white;
+            height: 90%;
+            width: 90%;
+            margin: auto;
+        }
+    }
+
+    .aboutWork{
+            overflow-x: scroll;
+        .workListContainer{
+            .workList{
+                width: fit-content;
+                list-style: none;
+                padding: 0 20px;
+                margin : 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 10px;
+                li{
+                    border: 1px solid lightgrey;
+                    height: 140px;
+                    width: 140px;
+                }
+            }
+        }
+    }
+}

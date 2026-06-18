@@ -1,0 +1,28 @@
+.services{
+    height: 70vh;
+    display: grid;
+    grid-template-rows: 10% 10% 80%;
+
+    .servicesList{
+        padding: 0 40px;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .service{
+            display: grid;
+            grid-template-rows: 50% 50%;
+            border: 1px solid lightgrey;
+            text-align: center;
+            width: 22%;
+
+            .serviceImage{
+                height: 100%;
+                width: 100%;
+                background: rgb(120, 120, 120);
+            }
+        }
+    }
+}

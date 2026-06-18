@@ -1,0 +1,27 @@
+.header{
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: black;
+    color: white;
+
+    .headerList{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 35px;
+
+        .headerItem{
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+    .headerTitle{}
+
+    .headerButton{}
+}
