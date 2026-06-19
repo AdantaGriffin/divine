@@ -13,7 +13,7 @@ function Reviews(){
 
                     <div className={styles.right}>
                         <div>⭐️⭐️⭐️⭐️⭐️ 5/5</div>
-                        <p>Ariel was great. Got a line up witha shave. he was prepared with the hot towel and face massage. Great experience, WILL be back!</p>
+                        <p>Ariel was great. Got a line up with a shave. He was prepared with the hot towel and face massage. Great experience, WILL be back!</p>
                         <p>-AdantaG</p>
                     </div>
                 </div>

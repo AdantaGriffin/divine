@@ -1,5 +1,12 @@
 @use '../mixins' as *;
 
+@media only screen and (max-width: 700px){
+    .ready{
+        display: block !important;
+        line-height: .3;
+    }
+}
+
 .reviews{
     height: 40vh;
     display: grid;
@@ -12,6 +19,10 @@
         padding: 10px 20px;
         background-color: black;
         color: white;
+
+        .left{
+            align-content: center;
+        }
     }
 
     .ready{
@@ -22,7 +33,6 @@
         .left, .right{
             align-content: center;
         }
-
         .right{
             text-align: center;
             button{
