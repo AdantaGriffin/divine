@@ -30,6 +30,13 @@ function About(){
                                 <li className={styles.workImage}>image</li>
                                 <li className={styles.workImage}>image</li>
                                 <li className={styles.workImage}>image</li>
+                                <li className={styles.workImage}>image</li>
+                                <li className={styles.workImage}>image</li>
+                                <li className={styles.workImage}>image</li>
+                                <li className={styles.workImage}>image</li>
+                                <li className={styles.workImage}>image</li>
+                                <li className={styles.workImage}>image</li>
+                                <li className={styles.workImage}>image</li>
                             </ul>
                         </div>
                 </div>

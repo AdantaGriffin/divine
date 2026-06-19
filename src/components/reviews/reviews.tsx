@@ -8,14 +8,13 @@ function Reviews(){
                 <div className={styles.clientLove}>
 
                     <div className={styles.left}>
-                        <h3>Gallery</h3>
                         <h2>Trusted By Our Clients</h2>
                     </div>
 
                     <div className={styles.right}>
-                        <div>stars</div>
-                        <p>review</p>
-                        <p>name</p>
+                        <div>⭐️⭐️⭐️⭐️⭐️ 5/5</div>
+                        <p>Ariel was great. Got a line up witha shave. he was prepared with the hot towel and face massage. Great experience, WILL be back!</p>
+                        <p>-AdantaG</p>
                     </div>
                 </div>
 

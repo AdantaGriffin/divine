@@ -1,3 +1,14 @@
+@use '../mixins' as *;
+
+@media only screen and (max-width: 700px){
+    .header{
+
+        .headerList{
+            display: none !important;
+        }
+        
+    }
+}
 .header{
     height: 9vh;
     display: flex;
@@ -21,7 +32,17 @@
         }
     }
 
-    .headerTitle{}
+    .headerTitle{
+        color: goldenrod;
+        line-height: .01;
 
-    .headerButton{}
+        .header2{
+            font-size: .8em;
+            font-weight: 400;
+        }
+    }
+
+    .headerButton{
+        @include button;
+    }
 }

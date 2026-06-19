@@ -10,7 +10,7 @@ function Services(){
                     <li className={styles.service}>
                         <img className={styles.serviceImage}/>
                         <div className={styles.serviceText}>
-                            <img/>
+                            <img src="/icons/scissors.png" alt="hair cut and designs icon"/>
                             <h3>Hair Cuts & Design's</h3>
                             <p>Precision cuts and effortless styling</p>
                             <a>learn more</a>
@@ -19,7 +19,7 @@ function Services(){
                     <li className={styles.service}>
                         <img className={styles.serviceImage}/>
                         <div className={styles.serviceText}>
-                            <img/>
+                            <img src="/icons/pen.png" alt="stylist and color icon"/>
                             <h3>Stylist & Color</h3>
                             <p>Smooth shiny hair & dimensional colors that enhance you</p>
                             <a>learn more</a>
@@ -28,7 +28,7 @@ function Services(){
                     <li className={styles.service}>
                         <img className={styles.serviceImage}/>
                         <div className={styles.serviceText}>
-                            <img/>
+                            <img src="/icons/nail-artist.png" alt="manicure icon"/>
                             <h3>Manicure & Pedicure</h3>
                             <p>Beautiful nail impeccable care</p>
                             <a>learn more</a>
@@ -37,7 +37,7 @@ function Services(){
                     <li className={styles.service}>
                         <img className={styles.serviceImage}/>
                         <div className={styles.serviceText}>
-                            <img/>
+                            <img src="/icons/hair-treatment.png" alt="scalp and hair wellness icon"/>
                             <h3>Scalp & Hair Wellness</h3>
                             <p>Scalp care for strong and healthy hair</p>
                             <a>learn more</a>

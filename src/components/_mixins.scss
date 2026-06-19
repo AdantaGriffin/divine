@@ -1,0 +1,11 @@
+@mixin button{
+    background-color: goldenrod;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-family: "Rokkitt";
+    font-size: 20px;
+    &:hover{
+        cursor: pointer;
+    }
+}

@@ -1,4 +1,4 @@
-
+import styles from './App.module.scss';
 
 import Header from './components/header/header';
 import Landing from './components/landing/landing';
@@ -10,14 +10,14 @@ import Footer from './components/footer/footer';
 function App() {
 
   return (
-    <>
+    <div className={styles.app}>
       <Header/>
       <Landing/>
       <Services/>
       <About/>
       <Reviews/>
       <Footer/>
-    </>
+    </div>
   )
 }
 

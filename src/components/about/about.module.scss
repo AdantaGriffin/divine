@@ -18,8 +18,9 @@
     }
 
     .aboutWork{
-            overflow-x: scroll;
+        overflow-x: hidden;
         .workListContainer{
+            overflow-x: scroll;
             .workList{
                 width: fit-content;
                 list-style: none;

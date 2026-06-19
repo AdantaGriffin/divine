@@ -1,27 +1,49 @@
+@media only screen and (max-width:700px){
+
+    .services{
+    }
+}
+
 .services{
-    height: 70vh;
+    min-height: 70vh;
     display: grid;
-    grid-template-rows: 10% 10% 80%;
+    grid-template-rows: 5% 5% 90%;
+    padding: 15px;
 
     .servicesList{
-        padding: 0 40px;
+        padding: 0;
         margin: 0;
         list-style: none;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        gap: 5px;
 
         .service{
             display: grid;
             grid-template-rows: 50% 50%;
             border: 1px solid lightgrey;
             text-align: center;
-            width: 22%;
+            width: 165px;
+            height: 400px;
+            padding: 5px;
 
             .serviceImage{
                 height: 100%;
                 width: 100%;
                 background: rgb(120, 120, 120);
+            }
+
+            .serviceText{
+                img{
+                    height: 20px;
+                    width: 20px;
+                    border: 1px solid black;
+                    border-radius: 100%;
+                    padding: 5px;
+                    position: relative;
+                    bottom: 15px;
+                }
             }
         }
     }

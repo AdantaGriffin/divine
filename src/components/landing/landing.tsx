@@ -19,16 +19,16 @@ function Landing(){
 
                         <p>Beauty | Confidence | Elevated</p>
 
-                        <h2>A Salon Experience Like No Other</h2>
+                        <h2>A Salon Experience <em>Like</em> No Other</h2>
 
                         <ul>
-                            <li>Hair</li>
+                            <li>HAIR</li>
                             <li>-</li>
-                            <li>Nail</li>
+                            <li>NAIL</li>
                             <li>-</li>
-                            <li>Scalp</li>
+                            <li>SCALP</li>
                             <li>-</li>
-                            <li>Beauty</li>
+                            <li>BEAUTY</li>
                         </ul>
 
                         <button>Book An Appointment</button>
