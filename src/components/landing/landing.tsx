@@ -4,7 +4,18 @@ function Landing(){
     return(
         <>
             <section className={styles.landing}>
-                <iframe 
+                <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                style={{ width: "100%", height: "100%", objectFit: "cover" }}    
+                >
+                    <source 
+                    src="/images/divineLanding.mov">
+                    </source>
+                </video>
+                {/*<iframe 
                 className={styles.video}
                 height="100%"
                 width="99.5%"
@@ -12,7 +23,7 @@ function Landing(){
                 title="Fire Barber Shop Promo - ATLMDERON" 
                 allow="accelerometer">
 
-                </iframe>
+                </iframe>*/}
 
                 <div className={styles.landingText}>
                     <div className={styles.textContainer}>

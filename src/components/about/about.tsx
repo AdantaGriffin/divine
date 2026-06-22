@@ -7,7 +7,9 @@ function About(){
 
                 <div className={styles.aboutUs}>
 
-                    <div className={styles.images}></div>
+                    <div className={styles.images}>
+                        <img src="/images/ariel.png" alt="Barber Ariel"/>
+                    </div>
 
                     <div className={styles.aboutText}>
                         <h3>About Us</h3>
