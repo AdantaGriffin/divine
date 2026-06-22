@@ -43,4 +43,11 @@
             }
         }
     }
+
+    a{
+        color: red;
+        &:hover{
+            cursor: pointer;
+        }
+    }
 }
