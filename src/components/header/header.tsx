@@ -1,12 +1,13 @@
 import styles from './header.module.scss';
+import { Link } from 'react-router-dom';
 
 function Header(){
     return(
         <>
             <header className={styles.header}>
                 <h1 className={styles.headerTitle}>
-                    <p className={styles.header1}>Divine Strength</p>
-                    <p className={styles.header2}>Spa & Salon</p>
+                    <Link to="/" className={styles.header1}>Divine Strength</Link>
+                    <Link to="/" className={styles.header2}>Spa & Salon</Link>
                 </h1>
                 <ul className={styles.headerList}>
                     <li className={styles.headerItem}>shop</li>

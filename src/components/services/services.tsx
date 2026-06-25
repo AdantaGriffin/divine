@@ -1,4 +1,5 @@
 import styles from './services.module.scss';
+import { Link } from 'react-router-dom';
 
 function Services(){
     return(
@@ -13,7 +14,7 @@ function Services(){
                             <img src="/icons/scissors.png" alt="hair cut and designs icon"/>
                             <h3>Hair Cuts & Design's</h3>
                             <p>Precision cuts and effortless styling</p>
-                            <a>learn more</a>
+                            <Link to="cuts">learn more</Link>
                         </div>
                     </li>
                     <li className={styles.service}>

@@ -33,8 +33,15 @@
     }
 
     .headerTitle{
-        color: goldenrod;
         line-height: .01;
+        height: 100%;
+        display: grid;
+        a{
+            position: relative; 
+            top: 20px;
+            color: goldenrod;
+            text-decoration: none;
+        }
 
         .header2{
             font-size: .8em;

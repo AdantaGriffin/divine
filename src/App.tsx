@@ -1,26 +1,24 @@
-import styles from './App.module.scss';
 
-import Header from './components/header/header';
-import Landing from './components/landing/landing';
-import Services from './components/services/services';
-import About from './components/about/about';
-import Reviews from './components/reviews/reviews';
-import Contact from './components/contact/contact';
-import Footer from './components/footer/footer';
+import { RouterProvider, createBrowserRouter, createRoutesFromElements, Route } from 'react-router-dom';
 
+import Root from './components/root/root';
+import Home from './components/home/home';
+import Cuts from './components/cuts/cuts';
+
+
+const AppRouter = createBrowserRouter(createRoutesFromElements(
+  <Route path="/" element={<Root/>}>
+    <Route index element={<Home/>}/>
+    <Route path="/cuts" element={<Cuts/>}/>
+  </Route>
+))
 function App() {
 
   return (
-    <div className={styles.app}>
-      <Header/>
-      <Landing/>
-      <Services/>
-      <About/>
-      <Reviews/>
-      <Contact/>
-      <Footer/>
-    </div>
+    <>
+    <RouterProvider router={AppRouter}/>
+    </>
   )
 }
 
-export default App
+export default App;
