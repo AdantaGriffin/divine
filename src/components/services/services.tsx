@@ -23,7 +23,7 @@ function Services(){
                             <img src="/icons/pen.png" alt="stylist and color icon"/>
                             <h3>Stylist & Color</h3>
                             <p>Smooth shiny hair & dimensional colors that enhance you</p>
-                            <a>learn more</a>
+                            <Link to="styling">learn more</Link>
                         </div>
                     </li>
                     <li className={styles.service}>
@@ -32,7 +32,7 @@ function Services(){
                             <img src="/icons/nail-artist.png" alt="manicure icon"/>
                             <h3>Manicure & Pedicure</h3>
                             <p>Beautiful nail impeccable care</p>
-                            <a>learn more</a>
+                            <Link to="nails">learn more</Link>
                         </div>
                     </li>
                     <li className={styles.service}>
@@ -41,7 +41,7 @@ function Services(){
                             <img src="/icons/hair-treatment.png" alt="scalp and hair wellness icon"/>
                             <h3>Scalp & Hair Wellness</h3>
                             <p>Scalp care for strong and healthy hair</p>
-                            <a>learn more</a>
+                            <Link to="wellness">learn more</Link>
                         </div>
                     </li>
                 </ul>

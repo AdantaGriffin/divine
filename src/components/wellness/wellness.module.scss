@@ -1,0 +1,44 @@
+.wellness{
+        color: #e0115f;
+
+        .stylingWellnessTitle{
+            padding: 5px;
+        }
+        .wellnessServices{
+            .servicesWellnessList{
+
+                .wellnessList, .addOnList{
+                    list-style: none;
+                    display: flex;
+                    justify-content: center;
+                    gap: 20px;
+                    flex-wrap: wrap;
+                    padding: 10px 0;
+                    margin: 0;
+
+                    .wellnessItem, .stylistItem{
+                        width: 150px;
+                        padding: 5px;
+                        border-bottom: 1px solid lightgrey;
+
+                        p{
+                            font-size: 18px;
+                            font-weight: 700;
+                        }
+
+                        .wellnessPriceList{
+                            list-style: none;
+                            display: flex;
+                            padding: 0;
+                            margin: 0;
+                            justify-content: space-evenly;
+
+                            .price{
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}
