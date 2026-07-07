@@ -4,10 +4,12 @@ function Cuts(){
     return(
         <>
             <section className={styles.cuts}>
+                
                 <div className={styles.cutsTitle}>
                     <img/>
                     <h2>Service Menu</h2>
                 </div>
+
                 <div className={styles.cutServices}>
 
                     <div className={styles.servicesList}>

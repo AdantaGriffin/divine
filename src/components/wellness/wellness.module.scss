@@ -1,4 +1,26 @@
 .wellness{
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+
+        background-image: url('/images/divineLogo.png');
+        background-size: 20% 20%;
+        background-image: contain;
+
+        opacity: 0.25; // Adjust this value
+
+        z-index: 0;
+    }
+
+    > * {
+        position: relative;
+        z-index: 1;
+    }
         color: #e0115f;
 
         .stylingWellnessTitle{
